@@ -1,0 +1,13 @@
+.garland-items__item {
+  width: 25px;
+  height: 25px;
+
+  margin-right: 25px;
+  margin-top: 20px;
+
+  border-radius: 50%;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,35 @@
+.toys-sort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sort-select {
+  width: 60%;
+  height: 50px;
+  padding: 0 55px 0 20px;
+
+  font: inherit;
+  font-size: 16px;
+  color: #fff;
+
+  background: linear-gradient(to left, rgba(255, 255, 255, .3) 55px, rgba(255, 255, 255, .2) 55px);
+  border-radius: 5px;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, .2);
+  cursor: pointer;
+
+  appearance: none;
+  border: 0;
+  outline: 0;
+
+  option {
+    color: #000;
+    background: #fff;
+  }
+  &:focus {
+    outline: none;
+  }
+  &::-ms-expand {
+    display: none;
+  }
+}

@@ -1,0 +1,47 @@
+.favorites-toys__items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  margin-top: 20px;
+
+  gap: 10px;
+}
+
+.favorites-toys__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 75px;
+
+  border-radius: 5px;
+
+  background-color: rgba(255, 255, 255, 0.3);
+
+  &:hover {
+    cursor: pointer;
+    
+    background-color: #7eb1c5;
+  }
+}
+
+.favorites-toys__img {
+  position: absolute;
+
+  width: 60px;
+  height: 60px;
+}
+
+.favorite-toys__count {
+  align-self: flex-start;
+
+  margin-left: auto;
+  padding: 0 5px;
+
+  font-size: 14px;
+  font-weight: 300;
+
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #7d8aff;
+}

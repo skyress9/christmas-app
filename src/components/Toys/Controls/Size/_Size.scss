@@ -1,0 +1,40 @@
+.toys-size__item {
+  margin-right: 10px;
+
+  width: 50px;
+  height: 50px;
+
+  background-image: url('../../../../assets/svg/ball.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  &:hover {
+    filter: invert(20%);
+  }
+
+  &.active {
+    filter: brightness(0.5) sepia(1) hue-rotate(199deg) saturate(6);
+  }
+
+  &:nth-child(2) {
+    background-size: 85%;
+  }
+  &:nth-child(3) {
+    background-size: 70%;
+  }
+
+  @media (max-width: 1000px) {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.toys-size__items {
+  margin-top: 20px;
+
+  @media (max-width: 1000px) {
+    display: flex;
+    justify-content: space-around;
+  }
+}

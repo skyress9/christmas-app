@@ -1,0 +1,28 @@
+.settings-options {
+  display: flex;
+}
+
+.settings-options__btn {
+  width: 36px;
+  height: 36px;
+
+  margin-right: 60px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.settings-options__btn {
+  &.active {
+    filter: brightness(0.5) sepia(1) hue-rotate(199deg) saturate(6)
+  }
+}
+
+.settings-options__audio {
+  background-image: url('../../../../assets/svg/audio.svg');
+}
+
+.settings-options__snow {
+  background-image: url('../../../../assets/svg/snow.svg');
+}
